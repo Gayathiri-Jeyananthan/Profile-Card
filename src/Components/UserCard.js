@@ -4,15 +4,15 @@ function User() {
   return (
     <div className="card-container">
       <span className="pro">ONLINE</span>
-      <img src="images/1.jpg" alt="user" />
+      <img src="images/1.jpg" className="img" alt="user" />
       <h3>User Full Name</h3>
       <h3>Colombo</h3>
       <p>Front-end Developer</p>
-      <div>
-        <button>Message</button>
-        <button>Following</button>
+      <div className='buttons'>
+        <button className="primary">Message</button>
+        <button className="primary outline">Following</button>
       </div>
-      <div>
+      <div className="skills">
         <h6>Skills</h6>
         <ul>
           <li>Html</li>
@@ -28,9 +28,5 @@ function User() {
   );
 }
 export const UserCard = () => {
-  return (
-    <div>
-      <User />
-    </div>
-  );
+  return <User />;
 };
