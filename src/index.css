@@ -41,6 +41,7 @@ p {
   width: 350px;
   max-width: 100%;
   text-align: center;
+  position:relative;
 }
 
 .pro{
@@ -49,4 +50,65 @@ p {
   border-radius: 3px;
   font-size: 14px;
   font-weight: bold;
+  padding:3px 7px;
+  position:absolute;
+  top:30px;
+  left:10px;
+}
+
+.online{
+  background-color: greenyellow;
+}
+.offline{
+  background-color: #febb0b;
+}
+
+.img{
+  border:3px solid #d7e9f6;
+  border-radius: 50%;
+  padding:7px;
+  height:150px;
+  width:150px;
+}
+
+.buttons{
+  display:flex;
+  justify-content: center;
+  gap:10px;
+}
+
+button.primary{
+  background-color: #207cbd ;
+  border:1px solid #5ca6da;
+  border-radius: 3px;
+  color:#ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  padding:10px 25px;
+}
+
+button.primary.outline{
+  background-color: transparent;
+}
+
+.skills{
+  background-color: #2f3640;
+  text-align: left;
+  padding:15px;
+  margin-top: 15px;
+}
+
+.skills ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+.skills ul li{
+  border:1px solid #5c6e88;
+  display:inline-block;
+  border-radius: 2px;
+  padding: 7px;
+  margin:0px 7px 7px 0px;
+  font-size: 12px;
 }
